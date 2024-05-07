@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "My First Post",
+      "datetime": "July 01, 2021 11:17:36 AM",
+      "body": "Made a video about Tesla QI results"
+    },
+    {
+      "id": "4",
+      "title": "My Fourth Post",
+      "datetime": "May 07, 2024 2:09:00 AM",
+      "body": "ETH will outperform BTC"
+    }
+  ]
+}
