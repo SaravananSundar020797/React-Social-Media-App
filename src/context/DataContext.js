@@ -83,7 +83,7 @@ export const DataProvider = ({ children }) => {
     const updatePost = {id,title:editPostTitle,datetime,body:editPostBody};
     try{
       const response = await api.put(`/posts/${id}`,updatePost);
-      setPosts(posts.map((post) => (post.id) === id ? {... response.data} : post));
+      setPosts(posts.map((post) => (post.id) === id ? {...response.data} : post));
       setEditPostTitle('');
       setEditPostBody('');
       navigator('/');
